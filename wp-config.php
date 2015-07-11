@@ -25,7 +25,7 @@ define('DB_USER', 'wordpressuser');
 define('DB_PASSWORD', 'mysql_pass');
 
 /** MySQL hostname */
-define('DB_HOST', '172.30.2.65');
+define('DB_HOST', '172.30.2.166');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
