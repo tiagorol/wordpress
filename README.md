@@ -1,1 +1,1 @@
-Instação do Wordpress sem Mysql
+Instação do Wordpress sem Mysql.
