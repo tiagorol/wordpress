@@ -26,8 +26,9 @@ ADD wp-config.php wordpress/wp-config.php
 RUN chmod 644 wordpress/wp-config.php
 
 #Permissões
-RUN chown -R www-data:www-data /var/www/html
+RUN rm -rf /var/www/html/index.html
 RUN sudo cp -r wordpress/* /var/www/html
+RUN chown -R www-data:www-data /var/www/html
 RUN sudo chmod g+w /var/www -R
 
 ADD run.sh /usr/local/bin/run.sh
