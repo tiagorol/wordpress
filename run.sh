@@ -1,4 +1,7 @@
 #!/bin/bash
 set -e
 
-exec /usr/sbin/httpd
+mkdir /var/testwordpress
+
+source /etc/apache2/envvars
+exec apache2 -D FOREGROUND
